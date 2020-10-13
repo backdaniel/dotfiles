@@ -1,0 +1,55 @@
+body {
+  background-color:#303030;
+}
+body.ownlist {
+  background-color:#303030;
+}
+
+#footer-block {
+  background-color:#303030;
+  height: 80px;
+  margin-top:150px;
+  border-top: 1px solid #000;
+}
+.list-unit {
+  margin:0px;
+  width:100%;
+}
+.list-unit .list-status-title {
+  background-color:#303030;
+  width:100%;
+}
+.list-unit .list-stats {
+  background-color:#303030;
+  width:100%;
+}
+.status-menu-container .status-menu .status-button::after {
+  background-color:#FFFFFF;
+}
+a {
+  color:#2556c6;
+}
+.more-content td {
+  line-height:20px;
+}
+.list-table .list-table-header .header-title .link.sort {
+  color:#2556c6;
+}
+.list-block {
+  margin-top:0px;
+}
+.list-table .list-table-data .data {
+  padding: 0px;
+}
+.header .header-title {
+  background-image: url("https://backdaniel.com/img/myanimelist.png");
+}
+#copyright {
+  color: lightgray;
+}
+.list-menu-float .icon-menu:not(.profile):hover {
+  background-color: #0d0d0d;
+}
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting, .list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+  background-color: #0d0d0d;
+}

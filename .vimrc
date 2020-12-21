@@ -3,9 +3,6 @@ set encoding=utf-8
 " fileencoding sets the option to write the file
 " fileencodings lists encodings for vim to try when opening file
 
-" turn on syntax highlighting
-syntax on
-
 " only usefull for systemwide vimrc, this overrides -C flag
 set nocompatible
 
@@ -15,21 +12,13 @@ set tabstop=2
 " this tells vim to always use the tabstop value
 set shiftwidth=0
 
-" show line numbers
-"set nu
-
-" always display status line
-"set laststatus=2
-
-" line representing 80 chars
-set colorcolumn=80
-
-" highlight all searches
-set hlsearch
-
 " turn on incremental search
 "set incsearch
 
+syntax on
+set number
+set hlsearch
+set ai
+set ruler
+set colorcolumn=80
 set background=dark
-
-"set wildmenu
